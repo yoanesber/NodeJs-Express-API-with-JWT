@@ -269,7 +269,7 @@ make install
 
 ### 🔧 Run Locally (Non-containerized)
 
-Ensure PostgreSQL are running locally, then:
+Ensure PostgreSQL is running locally, then:
 
 ```bash
 make dev
@@ -277,7 +277,7 @@ make dev
 
 ### 🐳 Run Using Docker
 
-To build and run all services (PostgreSQL, NodeJs app):
+To build and run all services (PostgreSQL and NodeJs app):
 
 ```bash
 make docker-up
@@ -303,6 +303,8 @@ http://localhost:4000
 ---
 
 ## 🧪 Testing Scenarios  
+
+This section outlines various test scenarios to validate the functionality of the application, including authentication, token management, and middleware behavior. Each scenario includes the expected request and response formats.
 
 ### 🔐 Login API
 
