@@ -30,8 +30,8 @@ const config = {
         host: process.env.DB_HOST!,
         port: process.env.DB_PORT ? parseInt(process.env.DB_PORT) : 5432,
         dialect: 'postgres',
-        logging: true,
-        force: true,
+        logging: false,
+        force: false,
         timezone: 'UTC',
     },
 };
