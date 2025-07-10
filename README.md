@@ -275,6 +275,18 @@ Ensure PostgreSQL is running locally, then:
 make dev
 ```
 
+This command will run the application in development mode, listening on port `4000` by default.
+
+### Run Migrations and Seed Initial Data
+
+To create the database schema and seed initial data, run:
+
+```bash
+make refresh-migrate-seed
+```
+
+This will execute all pending migrations and seed the database with initial data.
+
 ### 🐳 Run Using Docker
 
 To build and run all services (PostgreSQL and NodeJs app):
